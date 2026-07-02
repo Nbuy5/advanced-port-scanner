@@ -1,48 +1,46 @@
 # 🔍 Advanced Port Scanner
 
-A Python-based multi-threaded TCP port scanner built for educational and authorized security testing.
+A Python-based TCP Port Scanner that scans a target IP address or domain to identify open ports. This project demonstrates socket programming, networking fundamentals, and basic cybersecurity concepts.
 
-## ✨ Features
+## 🚀 Features
 
-- Multi-threaded TCP port scanning
-- Scan custom IP addresses
-- Scan custom port ranges
-- Fast and lightweight
-- Saves scan results to a text file
+- Scan open TCP ports
+- Custom port range scanning
+- Fast scanning with timeout handling
+- Save scan results to a file
+- Simple command-line interface
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3
 - Socket Programming
-- Threading
+- Networking
+- Git & GitHub
 
 ## 📂 Project Structure
 
-```
 advanced-port-scanner/
 │── scanner.py
-│── requirements.txt
 │── README.md
-```
 
-## 🚀 Installation
-
-```bash
-git clone https://github.com/Nbuy5/advanced-port-scanner.git
-cd advanced-port-scanner
-pip install -r requirements.txt
-```
-
-## ▶ Usage
+## ▶️ How to Run
 
 ```bash
 python scanner.py
 ```
 
-## ⚠ Disclaimer
+## 📸 Sample Output
 
-This project is intended for educational purposes and authorized network testing only.
+```text
+Scanning target: 192.168.1.1
+
+Port 22  : OPEN
+Port 80  : OPEN
+Port 443 : OPEN
+```
 
 ## 👨‍💻 Author
 
-Adnan Matiya
+**Adnan Matiya**
+
+GitHub: https://github.com/Nbuy5
